@@ -1,0 +1,16 @@
+﻿<Window x:Class="ApplicationDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ApplicationDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="BoutonPageDetails" Content="Details Article" HorizontalAlignment="Left" Margin="139,148,0,0" VerticalAlignment="Top" Height="162" Width="180" Background="#FF2ECC71" Click="BoutonPageDetails_Click"/>
+        <Button x:Name="BoutonAjouterPose" Content="Ajouter Article" HorizontalAlignment="Left" Margin="450,143,0,0" VerticalAlignment="Top" Height="162" Width="180" Background="#FF3498DB" Click="BoutonAjouterPose_Click"/>
+        <Rectangle HorizontalAlignment="Center" Height="93" Stroke="Black" VerticalAlignment="Top" Width="800" Fill="#FF2980B9" />
+        <Label x:Name="LabelTitre" Content="Gestion du blog" HorizontalAlignment="Left" Margin="36,18,0,0" VerticalAlignment="Top" Foreground="White" FontSize="36" FontFamily="Gadugi"/>
+
+    </Grid>
+</Window>
